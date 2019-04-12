@@ -40,7 +40,7 @@ fhb_dat <- fhb_dat %>%
 ```
 
 
-# Create the categorical variable - Baseline yield
+# Create  yield class
 
 Here we will group the yield data into two production situations, low or high yield, based on median of maximum yields across trials.
 
@@ -64,7 +64,7 @@ fhb_dat_selec <- fhb_dat_selec %>%
 
 ```
 
-## Export the new dataset
+## Export dataset
 
 
 ```{r}

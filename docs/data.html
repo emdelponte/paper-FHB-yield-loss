@@ -501,8 +501,8 @@ head(fhb_dat)</code></pre>
 <pre class="r"><code>fhb_dat &lt;- fhb_dat %&gt;%
   select(1:7, 12, 19, 21)</code></pre>
 </div>
-<div id="create-the-categorical-variable---baseline-yield" class="section level1">
-<h1>Create the categorical variable - Baseline yield</h1>
+<div id="create-yield-class" class="section level1">
+<h1>Create yield class</h1>
 <p>Here we will group the yield data into two production situations, low or high yield, based on median of maximum yields across trials.</p>
 <pre class="r"><code># Summarizing the yield max by study
 yield_max &lt;- fhb_dat %&gt;%
@@ -520,8 +520,8 @@ summary(yield_max$max_yield) # the median value of the yield mx by trials was 36
 fhb_dat_selec &lt;- fhb_dat_selec %&gt;%
   mutate(yield_class = case_when(max_yield &lt;= 3631 ~ &quot;low&quot;,
                          max_yield &gt; 3631 ~ &quot;high&quot;))</code></pre>
-<div id="export-the-new-dataset" class="section level2">
-<h2>Export the new dataset</h2>
+<div id="export-dataset" class="section level2">
+<h2>Export dataset</h2>
 <pre class="r"><code>library(readr)
 write_csv(fhb_dat_selec, &quot;data/fhb_data_new.csv&quot;)</code></pre>
 </div>
