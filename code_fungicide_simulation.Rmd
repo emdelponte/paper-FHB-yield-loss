@@ -1,0 +1,146 @@
+% Code
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+
+## Data import 
+
+
+```{r}
+library(tidyverse)
+simul_loss <- read.csv("data/yield_loss_simulations.csv")
+```
+
+
+# Risk analysis 
+
+## Control efficacy
+
+In our simulations, we used meta-analytic estimates of mean and confidence intervals of control efficacy of tebuconazole applied once (1྾) or twice (2྾) (Machado et al. 2007). We assumed that control efficacy follows a uniform distribution within the 95% confidence interval estimates.
+  
+```{r}
+# Fungicide applied once (1x)
+set.seed(280)
+efficacy1 <- runif(280, min = 46.9, max = 67.5) / 100 # max and min valeus extracted from Machado et al. (2017)
+
+# Funficide applied twice (2x)
+set.seed(280)
+efficacy2 <- runif(280, min = 44.3, max = 60.7) / 100 # max and min valeus extracted from Machado et al. (2017)
+```
+
+
+## Yield response to fungicide
+
+The mean yield difference (D) for one spray was given by the difference in yield between fungicide-protected (Yieldf) and no fungicide (Yieldnf) plots. However, the D from using two sprays was calculated by adding a simulated (normally distributed) mean yield gain estimated in the meta-analytic study (Machado et al. 2017), from using a second spray of tebuconazole.
+
+
+```{r}
+# Obtaining standard deviations from confidence intervals
+
+CIL <- 87.28
+CIU <- 115.9
+N <- 36
+conv_value <- 3.92
+
+sd <- (sqrt(N) * ((CIU - CIL) / conv_value))
+
+gain_2x <- rnorm(280, mean = 101.6, sd = sd) # The 101.6 is the mean of yield gain observed due to a second fungicide spray.
+```
+
+Let's now assemble a new the dataset with the control efficacy and yield gain estimations values.
+
+```{r}
+simul_loss1 <- simul_loss %>%
+  mutate(efficacy1 = efficacy1) %>%
+  mutate(efficacy2 = efficacy2) %>%
+  mutate(gain_2x = gain_2x) %>%
+  mutate(sev_control_1 = FHB_index * efficacy1) %>%
+  mutate(yield_fungicide_1 = attainable_yield - (attainable_yield * (sev_control_1 * 1.05 / 100))) %>%
+  mutate(gain_kg_1x = yield_fungicide_1 - actual_yield) %>%
+  mutate(sev_control_2 = FHB_index * efficacy2) %>%
+  mutate(yield_fungicide_2 = attainable_yield - (attainable_yield * (sev_control_2 * 1.05 / 100))) %>%
+  mutate(gain_kg_2x = (yield_fungicide_2 - actual_yield) + gain_2x)
+
+
+simul_loss2 <- simul_loss1 %>%
+  group_by(year) %>%
+  summarise(
+    vi_gain_1x = var(gain_kg_1x),
+    vi_gain_2x = var(gain_kg_2x)
+  )
+
+simul_loss3 <- full_join(simul_loss1, simul_loss2, by = "year")
+
+simul_loss3_1x <- simul_loss3 %>%
+  dplyr::select(sow_date, year, class_year, gain_kg_1x, vi_gain_1x) %>%
+  rename(
+    gain = gain_kg_1x,
+    vi = vi_gain_1x
+  ) %>%
+  mutate(trat = "1x") %>%
+  mutate(n_appl = 1)
+
+simul_loss3_2x <- simul_loss3 %>%
+  dplyr::select(sow_date, year, class_year, gain_kg_2x, vi_gain_2x) %>%
+  rename(
+    gain = gain_kg_2x,
+    vi = vi_gain_2x
+  ) %>%
+  mutate(trat = "2x") %>%
+  mutate(n_appl = 2)
+
+library(knitr)
+
+simul_all <- simul_loss3_1x %>%
+  bind_rows(simul_loss3_2x)
+
+simul_all
+```
+
+
+### Profitability 
+
+We created a function to calculate the probability of not-offsetting control costs with mean yield difference (D), the fungicide application cost (Fc), wheat price (Wp) and the  between-year variance of the yield gain as inputs.
+
+```{r}
+profit <- function(D, Fc, Wp, vi) {
+  p <- 1 - pnorm(((D - (Fc / Wp)) / sqrt(vi)))
+  return(p)
+}
+```
+
+
+ We generated different scenarios of Sp and Fc to calculate the probabilities. The values for Fc ranged from 5 to 35, and Wp ranged from 100 to 250. Therefore, using the function presented above, we calculated the probability of not-offsetting control costs fro each combination of  Wp, Fc and D.
+
+```{r message=FALSE, warning=FALSE}
+Fc <- seq(5, 35, by = 5)
+Wp <- seq(100, 250, by = 25) / 1000
+year <- simul_all$year
+D <- simul_all$gain
+vi <- simul_all$vi
+trat <- simul_all$trat
+n_appl <- simul_all$n_appl
+dat_simul <- data.frame()
+xxi <- matrix(0, length(D), 6)
+ppi <- matrix(0, 0, 6)
+
+for (i in 1:length(Fc)) {
+  for (j in 1:length(Wp)) {
+    for (k in 1:length(D)) {
+      xxi[k, 1] <- year[k]
+      xxi[k, 2] <- Fc[i]
+      xxi[k, 3] <- Wp[j]
+      xxi[k, 4] <- D[k]
+      xxi[k, 6] <- trat[k]
+
+      xxi[k, 5] <- profit(D = D[k], Fc = Fc[i] * n_appl[k], Wp = Wp[j], vi = vi[k])
+    }
+    ppi <- rbind(ppi, xxi)
+  }
+}
+dat_simul <- data.frame(year = as.numeric(ppi[, 1]), trat = ppi[, 6], Cost = as.numeric(ppi[, 2]), Price = as.numeric(ppi[, 3]), gain = ppi[, 4], prob = as.numeric(ppi[, 5]))
+
+dat_simul
+```

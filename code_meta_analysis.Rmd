@@ -1,0 +1,137 @@
+% Code
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+
+# Read data
+
+Let's load the data prepared in the previous section and proceed with preparation for analysis. 
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+fhb_dat <- read.csv("data/fhb_data_new.csv") %>%
+  group_by(trial)
+```
+
+  
+## Trial-level linear regression
+
+  Let's now fit a regression model for each study with variable number of pairs of observations, but splitting the dataset according to the baseline yield, which will give 19 and 18 trials in each condition.
+  
+### High yield scenario
+
+
+```{r, message=FALSE, warning=FALSE}
+library(broom)
+
+high_lm <- fhb_dat %>%
+  filter(yield_class != "low") %>%
+  group_by(trial) %>%
+  do(tidy(lm(.$yield ~ .$sev), conf.int = TRUE)) %>%
+  select(c(1:3)) %>%
+  spread(term, estimate)
+
+high_lm1 <- data.frame(high_lm)
+colnames(high_lm1) <- c("trial", "intercept", "slope")
+summary(high_lm1)
+```
+
+
+### Low yield scenario
+
+
+```{r, message=FALSE, warning=FALSE}
+low_lm <- fhb_dat %>%
+  filter(yield_class != "high") %>%
+  group_by(trial) %>%
+  do(tidy(lm(.$yield ~ .$sev), conf.int = TRUE)) %>%
+  select(c(1:3)) %>%
+  spread(term, estimate)
+
+low_lm1 <- data.frame(low_lm)
+colnames(low_lm1) <- c("trial", "intercept", "slope")
+head(low_lm1)
+summary(low_lm1)
+```
+
+
+## Population-average mixed model estimates
+
+  We will use the `lmer` function of the `lme4` to fit three different kinds of mixed models: random intercepts and slopes, random intercepts only and random slopes only. We also included baseline yield categorical variable in the model to check whether variance could be reduced, thus explaining portion of the variation in the slopes or intercepts.
+
+  
+  
+```{r, message=FALSE, warning=FALSE}
+library(lme4)
+
+# null model
+mix_yld <- lmer(yield ~ 1 + (1 | trial), data = fhb_dat, REML = F)
+
+# random intercept and slopes
+mix_yld1 <- lmer(yield ~ sev + (sev | trial), data = fhb_dat, REML = F)
+
+# random slopes
+mix_yld2 <- lmer(yield ~ sev + (1 | sev), data = fhb_dat, REML = F)
+
+# random intercepts
+mix_yld3 <- lmer(yield ~ sev + (1 | trial), data = fhb_dat, REML = F)
+```
+
+Here we can check which model best fitted the data based on the lowest AIC, which was the one with both intercepts and slopes as random effects.
+
+```{r, message=FALSE, warning=FALSE}
+AIC(mix_yld, mix_yld1, mix_yld2, mix_yld3)
+```
+
+
+### Effect of baseline yield 
+
+Let's include an interaction term and test whether variance was significantly reduced based on likelihood ratio test. 
+
+```{r}
+mix_yld4 <- lmer(yield ~ sev * yield_class + (sev | trial), data = fhb_dat, REML = F)
+```
+
+
+
+```{r}
+anova(mix_yld1, mix_yld4, test = "Chisq")
+```
+
+
+
+```{r, message=FALSE, warning=FALSE}
+summary(mix_yld4)
+library(emmeans)
+CLD(emmeans(mix_yld4, ~ sev * yield_class))
+```
+
+
+Extract the random coefficients (BLUES).
+  
+  
+```{r, message=FALSE, warning=FALSE}
+blup <- coef(mix_yld1)$trial
+colnames(blup) <- c("Intercept", "Slope")
+
+summary(blup)
+```
+
+
+ Calculate the interdecile range for the BLUEs of the slopes and intercepts
+ 
+ 
+```{r, message=FALSE, warning=FALSE}
+# Intercept
+dec90_i <- quantile(blup$Intercept, probs = c(.9))
+dec10_i <- quantile(blup$Intercept, probs = c(.1))
+dec90_i - dec10_i
+
+# Slopes
+dec90_s <- quantile(blup$Slope, probs = c(.9))
+dec10_s <- quantile(blup$Slope, probs = c(.1))
+dec90_s - dec10_s
+```
+

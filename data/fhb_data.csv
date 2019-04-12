@@ -1,0 +1,318 @@
+trial,treatment,year,location,state,lon,lat,sowing,cultivar,resistance,reaction,n,fungicide,AI,rep,inc_check,inc,sev_check,sev,yield_check,yield,author,publication
+1,1,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,AACHECK,Check,4,73.3,73.3,38.8,38.8,2838,2838,Panisson et al.2002,Artigo
+1,2,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,NA,NA,4,73.3,63.2,38.8,31.2,2838,3149,Panisson et al.2002,Artigo
+1,3,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,73.3,44.6,38.8,16.6,2838,3366,Panisson et al.2002,Artigo
+1,4,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,73.3,48.3,38.8,18.9,2838,3484,Panisson et al.2002,Artigo
+1,5,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,73.3,54.8,38.8,19.5,2838,3600,Panisson et al.2002,Artigo
+1,6,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,73.3,36.3,38.8,11.4,2838,3564,Panisson et al.2002,Artigo
+1,7,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,73.3,42.9,38.8,13.9,2838,3735,Panisson et al.2002,Artigo
+1,8,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,73.3,34.2,38.8,12.4,2838,3802,Panisson et al.2002,Artigo
+1,9,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,73.3,12.8,38.8,3.5,2838,4312,Panisson et al.2002,Artigo
+2,10,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,AACHECK,Check,4,70.2,70.2,34.9,34.9,3085,3085,Panisson et al.2002,Artigo
+2,11,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,NA,NA,4,70.2,54.1,34.9,27.1,3085,3280,Panisson et al.2002,Artigo
+2,12,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,70.2,45.2,34.9,17.5,3085,3988,Panisson et al.2002,Artigo
+2,13,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,70.2,42.5,34.9,12.8,3085,3942,Panisson et al.2002,Artigo
+2,14,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,70.2,42.4,34.9,15.3,3085,4250,Panisson et al.2002,Artigo
+2,15,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,70.2,44.8,34.9,15.7,3085,4176,Panisson et al.2002,Artigo
+2,16,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,70.2,31.8,34.9,9.4,3085,4333,Panisson et al.2002,Artigo
+2,17,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,70.2,20.7,34.9,5.9,3085,4692,Panisson et al.2002,Artigo
+2,18,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,9,Folicur 200 CE,Tebuconazole,4,70.2,15.1,34.9,3.1,3085,5055,Panisson et al.2002,Artigo
+3,19,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,8,AACHECK,Check,4,NA,NA,38.8,38.8,2838,2838,Panisson et al.2003,Artigo
+3,21,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,38.8,19.01,2838,3484,Panisson et al.2003,Artigo
+3,22,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,38.8,17.46,2838,3625,Panisson et al.2003,Artigo
+3,23,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,38.8,20.95,2838,3578,Panisson et al.2003,Artigo
+3,24,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,38.8,14.74,2838,3614,Panisson et al.2003,Artigo
+3,25,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,38.8,14.74,2838,3440,Panisson et al.2003,Artigo
+3,26,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,38.8,16.3,2838,3573,Panisson et al.2003,Artigo
+3,27,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36703,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,38.8,3.49,2838,4312,Panisson et al.2003,Artigo
+4,28,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,8,AACHECK,Check,4,NA,NA,34.9,34.9,3085,3085,Panisson et al.2003,Artigo
+4,30,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,34.9,18.85,3085,3942,Panisson et al.2003,Artigo
+4,31,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,34.9,12.91,3085,3921,Panisson et al.2003,Artigo
+4,32,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,34.9,20.24,3085,3949,Panisson et al.2003,Artigo
+4,33,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,34.9,13.96,3085,3957,Panisson et al.2003,Artigo
+4,34,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,34.9,18.15,3085,4047,Panisson et al.2003,Artigo
+4,35,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,34.9,17.8,3085,3991,Panisson et al.2003,Artigo
+4,36,2000,Passo Fundo,RS,-52.40666667,-28.26277778,36715,BRS23,S,S,8,Folicur 200 CE,Tebuconazole,4,NA,NA,34.9,3.14,3085,5055,Panisson et al.2003,Artigo
+5,37,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,AACHECK,Check,4,44.6,44.6,5.93,5.93,4984,4984,Casa et al.2007,Artigo
+5,38,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Folicur 200 CE,Tebuconazole,4,44.6,16.7,5.93,0.72,4984,5302,Casa et al.2007,Artigo
+5,39,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,44.6,26.3,5.93,1.74,4984,5157,Casa et al.2007,Artigo
+5,40,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,44.6,16.7,5.93,0.73,4984,5666,Casa et al.2007,Artigo
+5,41,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Caramba 90 CE,Metconazole,4,44.6,26.6,5.93,1.79,4984,5208,Casa et al.2007,Artigo
+5,42,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Folicur 200 CE,Tebuconazole,4,44.6,22.7,5.93,1.35,4984,5240,Casa et al.2007,Artigo
+5,43,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,44.6,27.7,5.93,1.99,4984,4996,Casa et al.2007,Artigo
+5,44,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,44.6,26,5.93,1.82,4984,5208,Casa et al.2007,Artigo
+5,45,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Caramba 90 CE,Metconazole,4,44.6,28,5.93,1.88,4984,5157,Casa et al.2007,Artigo
+5,46,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Folicur 200 CE,Tebuconazole,4,44.6,31,5.93,2.76,4984,5051,Casa et al.2007,Artigo
+5,47,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,44.6,30.3,5.93,2.41,4984,5145,Casa et al.2007,Artigo
+5,48,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,44.6,23.3,5.93,1.5,4984,5037,Casa et al.2007,Artigo
+5,49,2004,Muitos Cap?es,RS,-51.18166667,-28.31416667,38181,BRSLouro,MR,MR,13,Caramba 90 CE,Metconazole,4,44.6,36.3,5.93,3.39,4984,5158,Casa et al.2007,Artigo
+6,50,2005,Lages,SC,-50.32611111,-27.81611111,38545,BRSLouro,MR,MR,6,AACHECK,Check,4,68.7,68.7,12.71,12.71,1835,1835,Casa et al.2007,Artigo
+6,51,2005,Lages,SC,-50.32611111,-27.81611111,38545,BRSLouro,MR,MR,6,Folicur 200 CE,Tebuconazole,4,68.7,35.6,12.71,3.36,1835,2322,Casa et al.2007,Artigo
+6,52,2005,Lages,SC,-50.32611111,-27.81611111,38545,BRSLouro,MR,MR,6,Caramba 90 CE,Metconazole,4,68.7,37.5,12.71,3.66,1835,2379,Casa et al.2007,Artigo
+6,53,2005,Lages,SC,-50.32611111,-27.81611111,38545,BRSLouro,MR,MR,6,Opera 133+50 SE,Piraclostrobina + Epoxiconazole,4,68.7,37.5,12.71,3.73,1835,2320,Casa et al.2007,Artigo
+6,54,2005,Lages,SC,-50.32611111,-27.81611111,38545,BRSLouro,MR,MR,6,Priori Xtra 200+80 SC,Azoxistrobina + Ciproconazole,4,68.7,38.7,12.71,3.77,1835,2261,Casa et al.2007,Artigo
+6,55,2005,Lages,SC,-50.32611111,-27.81611111,38545,BRSLouro,MR,MR,6,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,68.7,36.2,12.71,3.78,1835,2123,Casa et al.2007,Artigo
+7,83,2009,Cruz Alta,RS,-53.60638889,-28.63861111,NA,Campo Real,MR,MR,7,AACHECK,Check,4,58.8,58.8,7.3,7.3,2764,2764,Spolti et al.2013,Artigo
+7,84,2009,Cruz Alta,RS,-53.60638889,-28.63861111,NA,Campo Real,MR,MR,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,58.8,50,7.3,6.5,2764,3115,Spolti et al.2013,Artigo
+7,85,2009,Cruz Alta,RS,-53.60638889,-28.63861111,NA,Campo Real,MR,MR,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,58.8,37.6,7.3,3.8,2764,3631,Spolti et al.2013,Artigo
+7,86,2009,Cruz Alta,RS,-53.60638889,-28.63861111,NA,Campo Real,MR,MR,7,Caramba 90 CE,Metconazole,4,58.8,31.3,7.3,2.7,2764,2723,Spolti et al.2013,Artigo
+7,87,2009,Cruz Alta,RS,-53.60638889,-28.63861111,NA,Campo Real,MR,MR,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,58.8,25,7.3,2.1,2764,2567,Spolti et al.2013,Artigo
+7,88,2009,Cruz Alta,RS,-53.60638889,-28.63861111,NA,Campo Real,MR,MR,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,58.8,23.8,7.3,2.1,2764,2666,Spolti et al.2013,Artigo
+7,89,2009,Cruz Alta,RS,-53.60638889,-28.63861111,NA,Campo Real,MR,MR,7,Caramba 90 CE,Metconazole,4,58.8,26.3,7.3,3.1,2764,3001,Spolti et al.2013,Artigo
+8,90,2009,Passo Fundo,RS,-52.40666667,-28.26277778,NA,BRSGuamirim,MR,MR,7,AACHECK,Check,4,43.8,43.8,5,5,1283,1283,Spolti et al.2013,Artigo
+8,91,2009,Passo Fundo,RS,-52.40666667,-28.26277778,NA,BRSGuamirim,MR,MR,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,43.8,23.9,5,2.1,1283,2837,Spolti et al.2013,Artigo
+8,92,2009,Passo Fundo,RS,-52.40666667,-28.26277778,NA,BRSGuamirim,MR,MR,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,43.8,23.8,5,2.1,1283,2396,Spolti et al.2013,Artigo
+8,93,2009,Passo Fundo,RS,-52.40666667,-28.26277778,NA,BRSGuamirim,MR,MR,7,Caramba 90 CE,Metconazole,4,43.8,26.3,5,2.3,1283,2445,Spolti et al.2013,Artigo
+8,94,2009,Passo Fundo,RS,-52.40666667,-28.26277778,NA,BRSGuamirim,MR,MR,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,43.8,18.8,5,1.9,1283,2935,Spolti et al.2013,Artigo
+8,95,2009,Passo Fundo,RS,-52.40666667,-28.26277778,NA,BRSGuamirim,MR,MR,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,43.8,10,5,0.9,1283,2649,Spolti et al.2013,Artigo
+8,96,2009,Passo Fundo,RS,-52.40666667,-28.26277778,NA,BRSGuamirim,MR,MR,7,Caramba 90 CE,Metconazole,4,43.8,20,5,1.7,1283,2567,Spolti et al.2013,Artigo
+9,97,2009,Lagoa Vermelha,RS,-51.52583333,-28.20861111,NA,Ra¡zes,MS,S,7,AACHECK,Check,4,76.3,76.3,10.1,10.1,1602,1602,Spolti et al.2013,Artigo
+9,98,2009,Lagoa Vermelha,RS,-51.52583333,-28.20861111,NA,Ra¡zes,MS,S,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,76.3,21.3,10.1,1.8,1602,1954,Spolti et al.2013,Artigo
+9,99,2009,Lagoa Vermelha,RS,-51.52583333,-28.20861111,NA,Ra¡zes,MS,S,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,76.3,30,10.1,2.7,1602,2379,Spolti et al.2013,Artigo
+9,100,2009,Lagoa Vermelha,RS,-51.52583333,-28.20861111,NA,Ra¡zes,MS,S,7,Caramba 90 CE,Metconazole,4,76.3,31.3,10.1,3.6,1602,1253,Spolti et al.2013,Artigo
+9,101,2009,Lagoa Vermelha,RS,-51.52583333,-28.20861111,NA,Ra¡zes,MS,S,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,76.3,18.3,10.1,1.3,1602,1889,Spolti et al.2013,Artigo
+9,102,2009,Lagoa Vermelha,RS,-51.52583333,-28.20861111,NA,Ra¡zes,MS,S,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,76.3,8.8,10.1,0.4,1602,1570,Spolti et al.2013,Artigo
+9,103,2009,Lagoa Vermelha,RS,-51.52583333,-28.20861111,NA,Ra¡zes,MS,S,7,Caramba 90 CE,Metconazole,4,76.3,13.8,10.1,0.9,1602,1447,Spolti et al.2013,Artigo
+10,104,2009,Muitos Cap?es,RS,-51.18166667,-28.31416667,NA,Supera,S,S,7,AACHECK,Check,4,90,90,31.3,31.3,2772,2772,Spolti et al.2013,Artigo
+10,105,2009,Muitos Cap?es,RS,-51.18166667,-28.31416667,NA,Supera,S,S,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,90,42.5,31.3,8.3,2772,2813,Spolti et al.2013,Artigo
+10,106,2009,Muitos Cap?es,RS,-51.18166667,-28.31416667,NA,Supera,S,S,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,90,38.8,31.3,5.6,2772,2919,Spolti et al.2013,Artigo
+10,107,2009,Muitos Cap?es,RS,-51.18166667,-28.31416667,NA,Supera,S,S,7,Caramba 90 CE,Metconazole,4,90,46.3,31.3,7.1,2772,2573,Spolti et al.2013,Artigo
+10,108,2009,Muitos Cap?es,RS,-51.18166667,-28.31416667,NA,Supera,S,S,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,90,42.5,31.3,5.7,2772,2845,Spolti et al.2013,Artigo
+10,109,2009,Muitos Cap?es,RS,-51.18166667,-28.31416667,NA,Supera,S,S,7,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,90,25,31.3,2.4,2772,2709,Spolti et al.2013,Artigo
+10,110,2009,Muitos Cap?es,RS,-51.18166667,-28.31416667,NA,Supera,S,S,7,Caramba 90 CE,Metconazole,4,90,27.5,31.3,4.8,2772,2802,Spolti et al.2013,Artigo
+11,120,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,AACHECK,Check,4,95.6,95.6,39,39,1191.6,1191.6,Maffini et al.2012,IC
+11,121,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Abacus 260+160 HC> Abacus 260+160 HC > Opera Ultra 130+80 CE,(Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Metconazole),4,95.6,55.6,39,6,1191.6,3197.6,Maffini et al.2012,IC
+11,122,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Opera 133+50 SE > Opera 133+50 SE > Opera Ultra 130+80 CE,(Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Metconazole),4,95.6,55.6,39,7,1191.6,3186.2,Maffini et al.2012,IC
+11,123,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Manzate > Opera > Opera,Mancozebe + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole),4,95.6,51.1,39,4,1191.6,3265.6,Maffini et al.2012,IC
+11,124,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Manzate + Comet 250 EC > Opera,(Mancozebe + Piraclostrobina) + (Piraclostrobina + Epoxiconazole),4,95.6,46.7,39,4,1191.6,3583.8,Maffini et al.2012,IC
+11,125,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Manzate + Opus > Opera,(Mancozebe + Epoxiconazole) + (Piraclostrobina + Epoxiconazole),4,95.6,33.3,39,2,1191.6,3203.8,Maffini et al.2012,IC
+11,126,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Manzate + Opera,Mancozebe + (Piraclostrobina + Epoxiconazole),4,95.6,24.4,39,1,1191.6,3256.5,Maffini et al.2012,IC
+11,127,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,95.6,48.9,39,4,1191.6,3076.8,Maffini et al.2012,IC
+11,128,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Priori Xtra 200+80 SC,Azoxistrobina + Ciproconazole,4,95.6,66.7,39,12,1191.6,3215.4,Maffini et al.2012,IC
+11,129,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,95.6,51.1,39,8,1191.6,3264.2,Maffini et al.2012,IC
+11,130,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Priori Xtra + Alto 100 SL,(Azoxistrobina + Ciproconazole) + Ciproconazole,4,95.6,80,39,12,1191.6,3080.2,Maffini et al.2012,IC
+11,131,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Opera 133+50 SE + Opus 125 SC,(Piraclostrobina + Epoxiconazole) + Epoxiconazole,4,95.6,62.2,39,4,1191.6,3779.3,Maffini et al.2012,IC
+11,132,2011,Itaara,RS,-53.76472222,-29.60972222,40725,Fundacep52,S,S,13,Nativo + Folicur,(Trifloxistrobina + Tebuconazole) + Tebuconazole,4,95.6,53.3,39,3,1191.6,3050.3,Maffini et al.2012,IC
+12,143,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,AACHECK,Check,4,54.3,54.3,7.7,7.7,2718,2718,Santana et al.2012,Boletim
+12,144,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,54.3,27.8,7.7,1.2,2718,3129,Santana et al.2012,Boletim
+12,145,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,54.3,26,7.7,1.3,2718,3208,Santana et al.2012,Boletim
+12,146,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,54.3,15.8,7.7,0.4,2718,3154,Santana et al.2012,Boletim
+12,147,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,PNR1,Azoxistrobina + Tebuconazole,4,54.3,27.5,7.7,1.7,2718,3145,Santana et al.2012,Boletim
+12,148,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,PNR2,Propiconazole,4,54.3,29,7.7,1.8,2718,3171,Santana et al.2012,Boletim
+12,149,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,PNR3,Tebuconazole,4,54.3,25.3,7.7,1.3,2718,2981,Santana et al.2012,Boletim
+12,150,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,Alterne,Tebuconazole,4,54.3,26,7.7,1.2,2718,3027,Santana et al.2012,Boletim
+12,151,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,PNR4,Epoxiconazole + Cresoxim-met¡lico,4,54.3,26,7.7,1.1,2718,3049,Santana et al.2012,Boletim
+12,152,2011,Cruz Alta,RS,-53.60638889,-28.63861111,40709,BRS208,MS,MR,10,Bendazol,Carbendazim,4,54.3,25.8,7.7,1.2,2718,2952,Santana et al.2012,Boletim
+13,183,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,AACHECK,Check,4,39.8,39.8,10,10,4198,4198,Santana et al.2012,Boletim
+13,184,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,39.8,27.5,10,6.8,4198,5506,Santana et al.2012,Boletim
+13,185,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,39.8,17.5,10,2.8,4198,5418,Santana et al.2012,Boletim
+13,186,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,39.8,21.3,10,4.3,4198,5692,Santana et al.2012,Boletim
+13,187,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,PNR1,Azoxistrobina + Tebuconazole,4,39.8,20.5,10,3,4198,5566,Santana et al.2012,Boletim
+13,188,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,PNR2,Propiconazole,4,39.8,36,10,6,4198,5352,Santana et al.2012,Boletim
+13,189,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,PNR3,Tebuconazole,4,39.8,21.8,10,3.7,4198,5414,Santana et al.2012,Boletim
+13,190,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,Alterne,Tebuconazole,4,39.8,22.8,10,4.2,4198,5426,Santana et al.2012,Boletim
+13,191,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,PNR4,Epoxiconazole + Cresoxim-met¡lico,4,39.8,25.3,10,4.7,4198,5492,Santana et al.2012,Boletim
+13,192,2011,Guarapuava,PR,-51.45805556,-25.39527778,40733,BRS208,MS,MR,10,Bendazol,Carbendazim,4,39.8,29.5,10,7.5,4198,5236,Santana et al.2012,Boletim
+14,240,2012,Passo Fundo,RS,-52.40666667,-28.26277778,41103,Mirante,S,S,7,AACHECK,Check,4,55.7,55.7,8.9,8.9,878,878,"Viana, Eduardo.2013",Tese
+14,241,2012,Passo Fundo,RS,-52.40666667,-28.26277778,41103,Mirante,S,S,7,NA,Piraclostrobina + Epoxiconazole,4,55.7,37.5,8.9,4.7,878,1214.8,"Viana, Eduardo.2013",Tese
+14,242,2012,Passo Fundo,RS,-52.40666667,-28.26277778,41103,Mirante,S,S,7,NA,Piraclostrobina + Epoxiconazole,4,55.7,37.5,8.9,3.8,878,1280.7,"Viana, Eduardo.2013",Tese
+14,243,2012,Passo Fundo,RS,-52.40666667,-28.26277778,41103,Mirante,S,S,7,NA,(Piraclostrobina + Epoxiconazole) + Metconazole,4,55.7,38.2,8.9,4.1,878,1460.3,"Viana, Eduardo.2013",Tese
+14,244,2012,Passo Fundo,RS,-52.40666667,-28.26277778,41103,Mirante,S,S,7,NA,Azoxistrobina + Ciproconazole,4,55.7,42.7,8.9,5.5,878,1211.5,"Viana, Eduardo.2013",Tese
+14,245,2012,Passo Fundo,RS,-52.40666667,-28.26277778,41103,Mirante,S,S,7,NA,(Azoxistrobina + Ciproconazole) + Propiconazole,4,55.7,45.5,8.9,5.6,878,1142.4,"Viana, Eduardo.2013",Tese
+14,246,2012,Passo Fundo,RS,-52.40666667,-28.26277778,41103,Mirante,S,S,7,NA,(Azoxistrobina + Ciproconazole) + Propiconazole,4,55.7,49.2,8.9,6.4,878,1150.9,"Viana, Eduardo.2013",Tese
+15,265,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,AACHECK,Check,4,51.3,51.3,8.7,8.7,3015,3015,Santana et al.2014,Boletim
+15,266,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,51.3,39.8,8.7,5.4,3015,3599,Santana et al.2014,Boletim
+15,267,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,51.3,36.2,8.7,4.5,3015,3633,Santana et al.2014,Boletim
+15,268,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,51.3,36.3,8.7,4.8,3015,3681,Santana et al.2014,Boletim
+15,269,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,PNR1,Azoxistrobina + Tebuconazole,4,51.3,39.7,8.7,4.2,3015,3525,Santana et al.2014,Boletim
+15,270,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,PNR2,Propiconazole,4,51.3,46.7,8.7,5.8,3015,3225,Santana et al.2014,Boletim
+15,271,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,PNR3,Propiconazole + Tebuconazole,4,51.3,46,8.7,5.1,3015,3029,Santana et al.2014,Boletim
+15,272,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,PNR4,Azoxistrobina + Tebuconazole,4,51.3,42.3,8.7,5.9,3015,3365,Santana et al.2014,Boletim
+15,273,2012,Cruz Alta,RS,-53.60638889,-28.63861111,41086,BRS208,MS,MR,9,Bendazol,Carbendazim,4,51.3,42.5,8.7,5.3,3015,3093,Santana et al.2014,Boletim
+16,292,2012,Guarapuava,RS,-51.45805556,-25.39527778,41090,BRS208,MS,MR,6,AACHECK,Check,4,NA,NA,16.5,16.5,3331,3331,Santana et al.2014,Boletim
+16,294,2012,Guarapuava,RS,-51.45805556,-25.39527778,41090,BRS208,MS,MR,6,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,NA,NA,16.5,2.8,3331,3565,Santana et al.2014,Boletim
+16,295,2012,Guarapuava,RS,-51.45805556,-25.39527778,41090,BRS208,MS,MR,6,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,NA,NA,16.5,3.5,3331,3465,Santana et al.2014,Boletim
+16,296,2012,Guarapuava,RS,-51.45805556,-25.39527778,41090,BRS208,MS,MR,6,PNR1,Azoxistrobina + Tebuconazole,4,NA,NA,16.5,3.8,3331,3575,Santana et al.2014,Boletim
+16,297,2012,Guarapuava,RS,-51.45805556,-25.39527778,41090,BRS208,MS,MR,6,PNR2,Propiconazole,4,NA,NA,16.5,6.4,3331,3370,Santana et al.2014,Boletim
+16,298,2012,Guarapuava,RS,-51.45805556,-25.39527778,41090,BRS208,MS,MR,6,PNR3,Propiconazole + Tebuconazole,4,NA,NA,16.5,5.1,3331,3409,Santana et al.2014,Boletim
+17,301,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,AACHECK,Check,4,41,41,6.34,6.34,3591,3591,Santana et al.2016a,Boletim
+17,302,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,41,29,6.34,3.37,3591,4120,Santana et al.2016a,Boletim
+17,303,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,41,18,6.34,2.26,3591,3982,Santana et al.2016a,Boletim
+17,304,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,PNR1-Nortox,Azoxistrobina + Tebuconazole,4,41,34,6.34,4.27,3591,4132,Santana et al.2016a,Boletim
+17,305,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,Propiconazole Nortox,Propiconazole,4,41,27,6.34,2.8,3591,3684,Santana et al.2016a,Boletim
+17,306,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,Carbendazim Nortox,Carbendazim,4,41,25,6.34,3.59,3591,4133,Santana et al.2016a,Boletim
+17,307,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,PNR2-Adama,Azoxistrobina + Tebuconazole,4,41,29,6.34,3.24,3591,4060,Santana et al.2016a,Boletim
+17,308,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,Carbendazim-Adama,Carbendazim,4,41,30,6.34,3.93,3591,3927,Santana et al.2016a,Boletim
+17,309,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,PNR3-Adama,Azoxistrobina + Tebuconazole + Carbendazim,4,41,17,6.34,1.88,3591,3957,Santana et al.2016a,Boletim
+17,310,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41432,BRS208,MS,MR,10,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,41,20,6.34,1.98,3591,4240,Santana et al.2016a,Boletim
+18,311,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,AACHECK,Check,4,59,59,7.25,7.25,3478,3478,Santana et al.2016a,Boletim
+18,312,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,59,13,7.25,1.4,3478,3722,Santana et al.2016a,Boletim
+18,313,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,59,13,7.25,1.38,3478,3567,Santana et al.2016a,Boletim
+18,314,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,PNR1-Nortox,Azoxistrobina + Tebuconazole,4,59,12,7.25,1.35,3478,3689,Santana et al.2016a,Boletim
+18,315,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,Propiconazole Nortox,Propiconazole,4,59,21,7.25,2.84,3478,3804,Santana et al.2016a,Boletim
+18,316,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,Carbendazim Nortox,Carbendazim,4,59,21,7.25,2.95,3478,3668,Santana et al.2016a,Boletim
+18,317,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,PNR2-Adama,Azoxistrobina + Tebuconazole,4,59,14,7.25,1.3,3478,3839,Santana et al.2016a,Boletim
+18,318,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,Carbendazim-Adama,Carbendazim,4,59,19,7.25,2.39,3478,3728,Santana et al.2016a,Boletim
+18,319,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,PNR3-Adama,Azoxistrobina + Tebuconazole + Carbendazim,4,59,15,7.25,1.67,3478,3927,Santana et al.2016a,Boletim
+18,320,2013,Passo Fundo,RS,-52.40666667,-28.26277778,41459,BRS208,MS,MR,10,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,59,9,7.25,0.85,3478,3882,Santana et al.2016a,Boletim
+19,351,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,AACHECK,Check,4,88,88,54.71,54.71,3756,3756,Santana et al.2016a,Boletim
+19,352,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,88,30,54.71,2.54,3756,4773,Santana et al.2016a,Boletim
+19,353,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,88,30,54.71,2.72,3756,4244,Santana et al.2016a,Boletim
+19,354,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,PNR1-Nortox,Azoxistrobina + Tebuconazole,4,88,41,54.71,4.52,3756,4679,Santana et al.2016a,Boletim
+19,355,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,Propiconazole Nortox,Propiconazole,4,88,48,54.71,7.32,3756,4389,Santana et al.2016a,Boletim
+19,356,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,Carbendazim Nortox,Carbendazim,4,88,29,54.71,2.03,3756,3890,Santana et al.2016a,Boletim
+19,357,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,PNR2-Adama,Azoxistrobina + Tebuconazole,4,88,36,54.71,4.18,3756,4545,Santana et al.2016a,Boletim
+19,358,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,Carbendazim-Adama,Carbendazim,4,88,28,54.71,2.37,3756,4245,Santana et al.2016a,Boletim
+19,358,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,Orkestra 99.9+50.1,Piraclostrobina + Fluxapyroxad,4,88,48,54.71,6.63,3756,4483,Santana et al.2016a,Boletim
+19,358,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,Orkestra 116.55+58.45,Piraclostrobina + Fluxapyroxad,4,88,34,54.71,3.2,3756,4499,Santana et al.2016a,Boletim
+19,360,2013,Guarapuava,PR,-51.45805556,-25.39527778,41470,CD105,S,S,11,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,88,30,54.71,2.26,3756,4515,Santana et al.2016a,Boletim
+20,361,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,BRSGuamirim,MR,MR,7,AACHECK,Check,4,NA,NA,50,50,4392.5,4392.5,Feksa et al.2014a,Resumo
+20,362,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,BRSGuamirim,MR,MR,7,Vondozeb 800 WP,Mancozeb,4,NA,NA,50,13.5,4392.5,5007.25,Feksa et al.2014a,Resumo
+20,363,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,BRSGuamirim,MR,MR,7,Vondozeb + Portero,Mancozebe + Carbendazim,4,NA,NA,50,3.5,4392.5,5210,Feksa et al.2014a,Resumo
+20,364,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,BRSGuamirim,MR,MR,7,Portero 500 SC,Carbendazim,4,NA,NA,50,7.5,4392.5,5150.5,Feksa et al.2014a,Resumo
+20,365,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,BRSGuamirim,MR,MR,7,Tebufort 200 EC,Tebuconazole,4,NA,NA,50,9.5,4392.5,5031.5,Feksa et al.2014a,Resumo
+20,366,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,BRSGuamirim,MR,MR,7,Tebufort + Portero,Tebuconazole + Carbendazim,4,NA,NA,50,4,4392.5,4869.75,Feksa et al.2014a,Resumo
+20,367,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,BRSGuamirim,MR,MR,7,Tebufort + Vondozeb,Tebuconazole + Mancozebe,4,NA,NA,50,5,4392.5,4603.25,Feksa et al.2014a,Resumo
+21,368,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,AACHECK,Check,4,NA,NA,62,62,3755.75,3755.75,Feksa et al.2014b,Resumo
+21,369,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,NA,NA,62,8.5,3755.75,4773.5,Feksa et al.2014b,Resumo
+21,370,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,NA,NA,62,9,3755.75,4244.25,Feksa et al.2014b,Resumo
+21,371,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,NTX3900,Azoxistrobina + Tebuconazole,4,NA,NA,62,11,3755.75,4678.75,Feksa et al.2014b,Resumo
+21,372,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,Propiconazole Nortox 250 EC,Propiconazole,4,NA,NA,62,15.5,3755.75,4388.5,Feksa et al.2014b,Resumo
+21,373,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,Carbendazim Nortox,Carbendazim,4,NA,NA,62,7,3755.75,3890,Feksa et al.2014b,Resumo
+21,374,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,Mil FF 0401,Azoxistrobina + Tebuconazole,4,NA,NA,62,11.8,3755.75,4545.25,Feksa et al.2014b,Resumo
+21,375,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,Bendazol,Carbendazim,4,NA,NA,62,8.5,3755.75,4245.25,Feksa et al.2014b,Resumo
+21,376,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,BAS 703 02F,Fluxapiroxade + Piraclostrobina,4,NA,NA,62,14,3755.75,4483,Feksa et al.2014b,Resumo
+21,377,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,BAS 703 02F,Fluxapiroxade + Piraclostrobina,4,NA,NA,62,9.5,3755.75,4498.75,Feksa et al.2014b,Resumo
+21,378,2013,Guarapuava,PR,-51.45805556,-25.39527778,NA,CD105,S,S,11,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,NA,NA,62,7.5,3755.75,4515,Feksa et al.2014b,Resumo
+22,506,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,AACHECK,Check,4,70,70,9,9,3002,3002,Santana et al.2016b,Boletim
+22,513,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,70,62,9,6,3002,3761,Santana et al.2016b,Boletim
+22,509,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,70,56,9,5,3002,3739,Santana et al.2016b,Boletim
+22,515,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,70,59,9,5,3002,3933,Santana et al.2016b,Boletim
+22,507,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Elatus,Azoxistrobina + Benzovindiflur,4,70,67,9,8,3002,3612,Santana et al.2016b,Boletim
+22,511,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Mancozeb,Mancozeb,4,70,68,9,9,3002,3728,Santana et al.2016b,Boletim
+22,514,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Nativo 300,Trifloxistrobina + Tebuconazole,4,70,61,9,6,3002,3729,Santana et al.2016b,Boletim
+22,510,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Fox 300,Trifloxistrobina + Protioconazole,4,70,58,9,5,3002,4035,Santana et al.2016b,Boletim
+22,516,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Opera Ultra 300,Piraclostrobina + Metconazole,4,70,59,9,5,3002,3756,Santana et al.2016b,Boletim
+22,508,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Elatus 300,Azoxistrobina + Benzovindiflur,4,70,58,9,5,3002,3909,Santana et al.2016b,Boletim
+22,512,2015,Cruz Alta,RS,-53.60638889,-28.63861111,42207,Marfim,S,S,11,Mancozeb 300,Mancozeb,4,70,64,9,7,3002,3517,Santana et al.2016b,Boletim
+23,517,2015,Guarapuava,PR,-51.45805556,-25.39527778,42204,ORS 25,SI,NA,8,AACHECK,Check,4,91,91,57,57,2269,2269,Santana et al.2016b,Boletim
+23,520,2015,Guarapuava,PR,-51.45805556,-25.39527778,42204,ORS 25,SI,NA,8,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,91,48,57,10,2269,3130,Santana et al.2016b,Boletim
+23,518,2015,Guarapuava,PR,-51.45805556,-25.39527778,42204,ORS 25,SI,NA,8,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,91,36,57,5,2269,3256,Santana et al.2016b,Boletim
+23,524,2015,Guarapuava,PR,-51.45805556,-25.39527778,42204,ORS 25,SI,NA,8,"Tebuconazole Nortox (1,0 L/ha) + Cuproquart (1,0 L/ha)",Tebuconazole + Sulfato de Cobre,4,91,35,57,5,2269,3222,Santana et al.2016b,Boletim
+23,523,2015,Guarapuava,PR,-51.45805556,-25.39527778,42204,ORS 25,SI,NA,8,"Propiconazole Nortox  (1,0 L/ha) + Cuproquart (1,0 L/ha)",Propiconazole + Sulfato de Cobre,4,91,50,57,13,2269,3159,Santana et al.2016b,Boletim
+23,522,2015,Guarapuava,PR,-51.45805556,-25.39527778,42204,ORS 25,SI,NA,8,"Propiconazole Nortox  (1,0 L/ha) + Carbendazim Nortox (1,0 L/ha)",Propiconazole + Carbendazim,4,91,40,57,8,2269,3152,Santana et al.2016b,Boletim
+23,519,2015,Guarapuava,PR,-51.45805556,-25.39527778,42204,ORS 25,SI,NA,8,Azimut,Azoxistrobina + Tebuconazole,4,91,39,57,7,2269,3246,Santana et al.2016b,Boletim
+23,521,2015,Guarapuava,PR,-51.45805556,-25.39527778,42204,ORS 25,SI,NA,8,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,91,35,57,6,2269,3126,Santana et al.2016b,Boletim
+24,533,2015,Passo Fundo,RS,-52.40666667,-28.26277778,42208,BRS208,MS,MR,7,AACHECK,Check,4,98,98,46,46,1368,1368,Santana et al.2016b,Boletim
+24,541,2015,Passo Fundo,RS,-52.40666667,-28.26277778,42208,BRS208,MS,MR,7,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,98,94,46,33,1368,2095,Santana et al.2016b,Boletim
+24,540,2015,Passo Fundo,RS,-52.40666667,-28.26277778,42208,BRS208,MS,MR,7,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,98,90,46,30,1368,2129,Santana et al.2016b,Boletim
+24,539,2015,Passo Fundo,RS,-52.40666667,-28.26277778,42208,BRS208,MS,MR,7,Carbendazim Nortox,Carbendazim,4,98,96,46,39,1368,1734,Santana et al.2016b,Boletim
+24,544,2015,Passo Fundo,RS,-52.40666667,-28.26277778,42208,BRS208,MS,MR,7,Opera Ultra + Silwet,Piraclostrobina + Metconazole,4,98,90,46,29,1368,2132,Santana et al.2016b,Boletim
+24,542,2015,Passo Fundo,RS,-52.40666667,-28.26277778,42208,BRS208,MS,MR,7,Opera Ultra 150L/h ,Piraclostrobina + Metconazole,4,98,90,46,27,1368,2109,Santana et al.2016b,Boletim
+24,543,2015,Passo Fundo,RS,-52.40666667,-28.26277778,42208,BRS208,MS,MR,7,Opera Ultra 200L/h ,Piraclostrobina + Metconazole,4,98,93,46,30,1368,2141,Santana et al.2016b,Boletim
+25,427,2014,?gua Santa,RS,-52.03388889,-28.17694444,41831,Sinuelo,MS,MR,8,AACHECK,Check,4,71.5,71.5,6.6,6.6,3159,3159,Santana et al.2016c,Boletim
+25,430,2014,?gua Santa,RS,-52.03388889,-28.17694444,41831,Sinuelo,MS,MR,8,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,71.5,58,6.6,3,3159,4667,Santana et al.2016c,Boletim
+25,429,2014,?gua Santa,RS,-52.03388889,-28.17694444,41831,Sinuelo,MS,MR,8,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,71.5,48,6.6,2.1,3159,4291,Santana et al.2016c,Boletim
+25,434,2014,?gua Santa,RS,-52.03388889,-28.17694444,41831,Sinuelo,MS,MR,8,Tebuco Nortox + Cuproquart,Tebuconazole + Sulfato de Cobre,4,71.5,59,6.6,4.1,3159,4461,Santana et al.2016c,Boletim
+25,432,2014,?gua Santa,RS,-52.03388889,-28.17694444,41831,Sinuelo,MS,MR,8,Propiconazole  + Cuproquart,Propiconazole + Sulfato de Cobre,4,71.5,49.5,6.6,2.1,3159,4277,Santana et al.2016c,Boletim
+25,433,2014,?gua Santa,RS,-52.03388889,-28.17694444,41831,Sinuelo,MS,MR,8,Propiconazole Nortox + Carbendazim Nortox,Propiconazole + Carbendazim,4,71.5,55,6.6,2.8,3159,4466,Santana et al.2016c,Boletim
+25,428,2014,?gua Santa,RS,-52.03388889,-28.17694444,41831,Sinuelo,MS,MR,8,Azimut,Azoxistrobina + Tebuconazole,4,71.5,55,6.6,2.8,3159,4142,Santana et al.2016c,Boletim
+25,431,2014,?gua Santa,RS,-52.03388889,-28.17694444,41831,Sinuelo,MS,MR,8,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,71.5,51.2,6.6,2.1,3159,4142,Santana et al.2016c,Boletim
+26,435,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41809,TEC 10,MS,MR,8,AACHECK,Check,4,64,64,8.8,8.8,2077,2077,Santana et al.2016c,Boletim
+26,436,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41809,TEC 10,MS,MR,8,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,64,65.8,8.8,5.5,2077,2412,Santana et al.2016c,Boletim
+26,437,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41809,TEC 10,MS,MR,8,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,64,69.2,8.8,6.4,2077,2307,Santana et al.2016c,Boletim
+26,438,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41809,TEC 10,MS,MR,8,Tebuco Nortox + Cuproquart,Tebuconazole + Sulfato de Cobre,4,64,69,8.8,6.6,2077,2279,Santana et al.2016c,Boletim
+26,439,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41809,TEC 10,MS,MR,8,Propiconazole  + Cuproquart,Propiconazole + Sulfato de Cobre,4,64,72.2,8.8,7.5,2077,2213,Santana et al.2016c,Boletim
+26,440,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41809,TEC 10,MS,MR,8,Propiconazole Nortox + Carbendazim Nortox,Propiconazole + Carbendazim,4,64,64,8.8,4.8,2077,2522,Santana et al.2016c,Boletim
+26,441,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41809,TEC 10,MS,MR,8,Azimut,Azoxistrobina + Tebuconazole,4,64,65,8.8,5.5,2077,2378,Santana et al.2016c,Boletim
+26,442,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41809,TEC 10,MS,MR,8,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,64,50,8.8,2.7,2077,2575,Santana et al.2016c,Boletim
+27,453,2014,Guarapuava,PR,-51.45805556,-25.39527778,41822,Campeiro,MS,S,8,AACHECK,Check,4,62,62,30.4,30.4,4256,4256,Santana et al.2016c,Boletim
+27,454,2014,Guarapuava,PR,-51.45805556,-25.39527778,41822,Campeiro,MS,S,8,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,62,29.7,30.4,4.1,4256,4315,Santana et al.2016c,Boletim
+27,455,2014,Guarapuava,PR,-51.45805556,-25.39527778,41822,Campeiro,MS,S,8,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,62,17.7,30.4,1.8,4256,4531,Santana et al.2016c,Boletim
+27,456,2014,Guarapuava,PR,-51.45805556,-25.39527778,41822,Campeiro,MS,S,8,Tebuco Nortox + Cuproquart,Tebuconazole + Sulfato de Cobre,4,62,21.7,30.4,2.2,4256,4389,Santana et al.2016c,Boletim
+27,457,2014,Guarapuava,PR,-51.45805556,-25.39527778,41822,Campeiro,MS,S,8,Propiconazole  + Cuproquart,Propiconazole + Sulfato de Cobre,4,62,41.7,30.4,8.5,4256,4101,Santana et al.2016c,Boletim
+27,458,2014,Guarapuava,PR,-51.45805556,-25.39527778,41822,Campeiro,MS,S,8,Propiconazole Nortox + Carbendazim Nortox,Propiconazole + Carbendazim,4,62,24.7,30.4,3.3,4256,4586,Santana et al.2016c,Boletim
+27,459,2014,Guarapuava,PR,-51.45805556,-25.39527778,41822,Campeiro,MS,S,8,Azimut,Azoxistrobina + Tebuconazole,4,62,31.2,30.4,4.5,4256,4343,Santana et al.2016c,Boletim
+27,460,2014,Guarapuava,PR,-51.45805556,-25.39527778,41822,Campeiro,MS,S,8,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,62,25.7,30.4,2.9,4256,4275,Santana et al.2016c,Boletim
+28,469,2014,Palmeira,PR,-50.00638889,-25.42861111,41810,Marfim,S,S,8,AACHECK,Check,4,17.3,17.3,8.4,8.4,2972,2972,Santana et al.2016c,Boletim
+28,470,2014,Palmeira,PR,-50.00638889,-25.42861111,41810,Marfim,S,S,8,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,17.3,17,8.4,4.7,2972,3242,Santana et al.2016c,Boletim
+28,471,2014,Palmeira,PR,-50.00638889,-25.42861111,41810,Marfim,S,S,8,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,17.3,15.8,8.4,4.3,2972,3161,Santana et al.2016c,Boletim
+28,472,2014,Palmeira,PR,-50.00638889,-25.42861111,41810,Marfim,S,S,8,Tebuco Nortox + Cuproquart,Tebuconazole + Sulfato de Cobre,4,17.3,13.7,8.4,2.6,2972,3546,Santana et al.2016c,Boletim
+28,473,2014,Palmeira,PR,-50.00638889,-25.42861111,41810,Marfim,S,S,8,Propiconazole  + Cuproquart,Propiconazole + Sulfato de Cobre,4,17.3,13.8,8.4,3,2972,3313,Santana et al.2016c,Boletim
+28,474,2014,Palmeira,PR,-50.00638889,-25.42861111,41810,Marfim,S,S,8,Propiconazole Nortox + Carbendazim Nortox,Propiconazole + Carbendazim,4,17.3,14,8.4,4.1,2972,3083,Santana et al.2016c,Boletim
+28,475,2014,Palmeira,PR,-50.00638889,-25.42861111,41810,Marfim,S,S,8,Azimut,Azoxistrobina + Tebuconazole,4,17.3,16.3,8.4,4.3,2972,3196,Santana et al.2016c,Boletim
+28,476,2014,Palmeira,PR,-50.00638889,-25.42861111,41810,Marfim,S,S,8,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,17.3,17.1,8.4,4.2,2972,3282,Santana et al.2016c,Boletim
+29,477,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,AACHECK,Check,4,85,85,9.3,9.3,2983,2983,Santana et al.2016c,Boletim
+29,478,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,85,64,9.3,4,2983,3167,Santana et al.2016c,Boletim
+29,479,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,85,65,9.3,4,2983,3480,Santana et al.2016c,Boletim
+29,480,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,Tebuco Nortox + Cuproquart,Tebuconazole + Sulfato de Cobre,4,85,59,9.3,3.1,2983,3265,Santana et al.2016c,Boletim
+29,481,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,Propiconazole  + Cuproquart,Propiconazole + Sulfato de Cobre,4,85,72,9.3,5,2983,3149,Santana et al.2016c,Boletim
+29,482,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,Propiconazole Nortox + Carbendazim Nortox,Propiconazole + Carbendazim,4,85,59.2,9.3,3,2983,3288,Santana et al.2016c,Boletim
+29,483,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,Azimut,Azoxistrobina + Tebuconazole,4,85,60,9.3,3.4,2983,3371,Santana et al.2016c,Boletim
+29,484,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,85,55,9.3,2.8,2983,3350,Santana et al.2016c,Boletim
+29,485,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41794,BRS208,MS,MR,9,Tebuconazole Nortox,Tebuconazole,4,85,54,9.3,2.7,2983,2999,Santana et al.2016c,Boletim
+30,486,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,AACHECK,Check,4,92,92,21.8,21.8,1925,1925,Santana et al.2016c,Boletim
+30,487,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,92,77.7,21.8,11,1925,2633,Santana et al.2016c,Boletim
+30,488,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,92,76,21.8,8.7,1925,2272,Santana et al.2016c,Boletim
+30,489,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,Tebuco Nortox + Cuproquart,Tebuconazole + Sulfato de Cobre,4,92,83.2,21.8,12.5,1925,2427,Santana et al.2016c,Boletim
+30,490,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,Propiconazole  + Cuproquart,Propiconazole + Sulfato de Cobre,4,92,85.2,21.8,14.5,1925,2156,Santana et al.2016c,Boletim
+30,491,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,Propiconazole Nortox + Carbendazim Nortox,Propiconazole + Carbendazim,4,92,66.5,21.8,6.8,1925,2794,Santana et al.2016c,Boletim
+30,492,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,Azimut,Azoxistrobina + Tebuconazole,4,92,79.7,21.8,10.9,1925,2475,Santana et al.2016c,Boletim
+30,493,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,Opera Ultra 130+80 CE,Piraclostrobina + Metconazole,4,92,78.5,21.8,10.7,1925,2744,Santana et al.2016c,Boletim
+30,494,2014,Passo Fundo,RS,-52.40666667,-28.26277778,41824,BRS208,MS,MR,9,Tebuconazole Nortox,Tebuconazole,4,92,79.5,21.8,11.3,1925,2648,Santana et al.2016c,Boletim
+31,545,2007,Cruz Alta,RS,-53.60638889,-28.63861111,39263,Fundacep 52,S,S,7,AACHECK,Check,4,83.7,83.7,7.271428571,7.271428571,1165,1165,Deuner et al.2009,Resumo
+31,546,2007,Cruz Alta,RS,-53.60638889,-28.63861111,39263,Fundacep 52,S,S,7,Caramba 90 CE,Metconazole,4,83.7,72,7.271428571,2.304,1165,3487,Deuner et al.2009,Resumo
+31,547,2007,Cruz Alta,RS,-53.60638889,-28.63861111,39263,Fundacep 52,S,S,7,Carbomax 500 SC - 250,Carbendazim,4,83.7,80,7.271428571,7.68,1165,2589,Deuner et al.2009,Resumo
+31,548,2007,Cruz Alta,RS,-53.60638889,-28.63861111,39263,Fundacep 52,S,S,7,Carbomax 500 SC - 375,Carbendazim,4,83.7,76.1,7.271428571,6.9251,1165,2621,Deuner et al.2009,Resumo
+31,549,2007,Cruz Alta,RS,-53.60638889,-28.63861111,39263,Fundacep 52,S,S,7,Rival 200 EC,Tebuconazole,4,83.7,75.4,7.271428571,6.2582,1165,2715,Deuner et al.2009,Resumo
+31,550,2007,Cruz Alta,RS,-53.60638889,-28.63861111,39263,Fundacep 52,S,S,7,Rival 200 EC + Carbomax 500 SC,Tebuconazole + Carbendazim,4,83.7,75,7.271428571,2.625,1165,3453,Deuner et al.2009,Resumo
+31,551,2007,Cruz Alta,RS,-53.60638889,-28.63861111,39263,Fundacep 52,S,S,7,Opera + Carbomax 500 SC,(Piraclostrobina + Epoxiconazole) + Carbendazim,4,83.7,72.5,7.271428571,7.271428571,1165,3576,Deuner et al.2009,Resumo
+32,565,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,TEC 10,MS,MR,7,AACHECK,Check,4,NA,NA,6.58,6.58,1658.4,1658.4,Guterres et al.2015,Resumo
+32,566,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,TEC 10,MS,MR,7,Opera ultra (1x),Piraclostrobina + Metconazole,4,NA,NA,6.58,2.26,1658.4,1797.96,Guterres et al.2015,Resumo
+32,567,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,TEC 10,MS,MR,7,Opera Ultra (2x),Piraclostrobina + Metconazole,4,NA,NA,6.58,1.19,1658.4,2104,Guterres et al.2015,Resumo
+32,568,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,TEC 10,MS,MR,7,Orkestra (1x),Fluxapiroxade + Piraclostrobina,4,NA,NA,6.58,4.69,1658.4,1685.86,Guterres et al.2015,Resumo
+32,569,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,TEC 10,MS,MR,7,Orkestra (2x),Fluxapiroxade + Piraclostrobina,4,NA,NA,6.58,4.25,1658.4,1900.84,Guterres et al.2015,Resumo
+32,570,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,TEC 10,MS,MR,7,Opera + Tebuconazole,(Piraclostrobina + Epoxiconazole) + Tebuconazole,4,NA,NA,6.58,2.24,1658.4,1626.5,Guterres et al.2015,Resumo
+32,571,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,TEC 10,MS,MR,7,Opera + Carbendazim,(Piraclostrobina + Epoxiconazole) + Carbendazim,4,NA,NA,6.58,1.14,1658.4,2003.72,Guterres et al.2015,Resumo
+33,572,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,Linhagem 01/14,MR,MR,7,AACHECK,Check,4,NA,NA,6.24,6.24,2148.9,2148.9,Guterres et al.2015,Resumo
+33,573,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,Linhagem 01/14,MR,MR,7,Opera ultra (1x),Piraclostrobina + Metconazole,4,NA,NA,6.24,1.5,2148.9,2522.4,Guterres et al.2015,Resumo
+33,574,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,Linhagem 01/14,MR,MR,7,Opera Ultra (2x),Piraclostrobina + Metconazole,4,NA,NA,6.24,0.87,2148.9,2526.3,Guterres et al.2015,Resumo
+33,575,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,Linhagem 01/14,MR,MR,7,Orkestra (1x),Fluxapiroxade + Piraclostrobina,4,NA,NA,6.24,2.23,2148.9,2504.2,Guterres et al.2015,Resumo
+33,576,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,Linhagem 01/14,MR,MR,7,Orkestra (2x),Fluxapiroxade + Piraclostrobina,4,NA,NA,6.24,2.8,2148.9,2224.3,Guterres et al.2015,Resumo
+33,577,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,Linhagem 01/14,MR,MR,7,Opera + Tebuconazole,(Piraclostrobina + Epoxiconazole) + Tebuconazole,4,NA,NA,6.24,2.27,2148.9,2489.4,Guterres et al.2015,Resumo
+33,578,2014,Cruz Alta,RS,-53.60638889,-28.63861111,41800,Linhagem 01/14,MR,MR,7,Opera + Carbendazim,(Piraclostrobina + Epoxiconazole) + Carbendazim,4,NA,NA,6.24,1.14,2148.9,2415.7,Guterres et al.2015,Resumo
+34,609,2014,Santo Augusto,RS,-53.77722222,-27.85083333,41803,TBIO Igua‡£,MS,MR,8,AACHECK,Check,4,NA,NA,7.57,7.57,1499.9,1499.9,Guterres et al.,Resumo
+34,610,2014,Santo Augusto,RS,-53.77722222,-27.85083333,41803,TBIO Igua‡£,MS,MR,8,Opera ultra (1x),Piraclostrobina + Metconazole,4,NA,NA,7.57,3.49,1499.9,2048.9,Guterres et al.,Resumo
+34,611,2014,Santo Augusto,RS,-53.77722222,-27.85083333,41803,TBIO Igua‡£,MS,MR,8,Opera Ultra (2x),Piraclostrobina + Metconazole,4,NA,NA,7.57,1.14,1499.9,2392,Guterres et al.,Resumo
+34,612,2014,Santo Augusto,RS,-53.77722222,-27.85083333,41803,TBIO Igua‡£,MS,MR,8,Orkestra (1x),Fluxapiroxade + Piraclostrobina,4,NA,NA,7.57,6.58,1499.9,1636,Guterres et al.,Resumo
+34,613,2014,Santo Augusto,RS,-53.77722222,-27.85083333,41803,TBIO Igua‡£,MS,MR,8,Orkestra (2x),Fluxapiroxade + Piraclostrobina,4,NA,NA,7.57,2.46,1499.9,2388.6,Guterres et al.,Resumo
+34,614,2014,Santo Augusto,RS,-53.77722222,-27.85083333,41803,TBIO Igua‡£,MS,MR,8,Opera + Tebuconazole,(Piraclostrobina + Epoxiconazole) + Tebuconazole,4,NA,NA,7.57,3.6,1499.9,2245.34,Guterres et al.,Resumo
+34,615,2014,Santo Augusto,RS,-53.77722222,-27.85083333,41803,TBIO Igua‡£,MS,MR,8,Opera + Carbendazim,(Piraclostrobina + Epoxiconazole) + Carbendazim,4,NA,NA,7.57,1.24,1499.9,2221.8,Guterres et al.,Resumo
+34,616,2014,Santo Augusto,RS,-53.77722222,-27.85083333,41803,TBIO Igua‡£,MS,MR,8,Opera 133+50 SE,Piraclostrobina + Epoxiconazole,4,NA,NA,7.57,3.98,1499.9,2196.4,Guterres et al.,Resumo
+35,634,2014,Passo Fundo,RS,-52.40666667,-28.26277778,NA,TBIO Pioneiro,MS,MR,7,AACHECK,Check,4,90,90,89.37,89.37,2579,2579,Pizolotto and Boller,Resumo
+35,635,2014,Passo Fundo,RS,-52.40666667,-28.26277778,NA,TBIO Pioneiro,MS,MR,7,Opera Ultra,Piraclostrobina + Metconazole,4,90,60.7,89.37,51.7771,2579,3393,Pizolotto and Boller,Resumo
+35,636,2014,Passo Fundo,RS,-52.40666667,-28.26277778,NA,TBIO Pioneiro,MS,MR,7,Opera Ultra,Piraclostrobina + Metconazole,4,90,59.7,89.37,52.7151,2579,3514,Pizolotto and Boller,Resumo
+35,637,2014,Passo Fundo,RS,-52.40666667,-28.26277778,NA,TBIO Pioneiro,MS,MR,7,Opera Ultra,Piraclostrobina + Metconazole,4,90,86.3,89.37,75.944,2579,3401,Pizolotto and Boller,Resumo
+35,638,2014,Passo Fundo,RS,-52.40666667,-28.26277778,NA,TBIO Pioneiro,MS,MR,7,Opera Ultra,Piraclostrobina + Metconazole,4,90,44,89.37,36.212,2579,3608,Pizolotto and Boller,Resumo
+35,639,2014,Passo Fundo,RS,-52.40666667,-28.26277778,NA,TBIO Pioneiro,MS,MR,7,Opera Ultra,Piraclostrobina + Metconazole,4,90,55.3,89.37,45.346,2579,3546,Pizolotto and Boller,Resumo
+35,640,2014,Passo Fundo,RS,-52.40666667,-28.26277778,NA,TBIO Pioneiro,MS,MR,7,Opera Ultra,Piraclostrobina + Metconazole,4,90,70.3,89.37,62.3561,2579,3502,Pizolotto and Boller,Resumo
+36,697,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,AACHECK,Check,4,NA,NA,6.54,6.54,3187.3,3187.3,Feldmann et al.2014,Resumo
+36,698,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Nativo 100+200 SC,Trifloxistrobina + Tebuconazole,4,NA,NA,6.54,9.17,3187.3,3649,Feldmann et al.2014,Resumo
+36,699,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Fox 150+175 SC,Trifloxistrobina + Protioconazole,4,NA,NA,6.54,4.98,3187.3,3028.7,Feldmann et al.2014,Resumo
+36,700,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,NTX3900,Azoxistrobina + Tebuconazole,4,NA,NA,6.54,3.87,3187.3,3417.2,Feldmann et al.2014,Resumo
+36,701,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Propiconazole Nortox,Propiconazole,4,NA,NA,6.54,9.47,3187.3,3381.4,Feldmann et al.2014,Resumo
+36,702,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Carbendazim Nortox,Carbendazim,4,NA,NA,6.54,7.42,3187.3,3506.9,Feldmann et al.2014,Resumo
+36,703,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Mill FF0401/07,Azoxistrobina + Tebuconazole,4,NA,NA,6.54,5.39,3187.3,3504.2,Feldmann et al.2014,Resumo
+36,704,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Bendazol,Carbendazim,4,NA,NA,6.54,7.22,3187.3,3346.2,Feldmann et al.2014,Resumo
+36,705,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Mill FF0401/07 + Bendazol,(Azoxistrobina + Tebuconazole) + Carbendazim,4,NA,NA,6.54,6.03,3187.3,3031.5,Feldmann et al.2014,Resumo
+36,706,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Bas 703 02F,Fluxapiroxade + Piraclostrobina,4,NA,NA,6.54,8.3,3187.3,3593.9,Feldmann et al.2014,Resumo
+36,707,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Bas 703 02F,Fluxapiroxade + Piraclostrobina,4,NA,NA,6.54,6.48,3187.3,3372.3,Feldmann et al.2014,Resumo
+36,708,2013,Itapiranga,SC,-53.71222222,-27.16944444,NA,BRS 208,MS,MR,12,Opera Ultra,Piraclostrobina + Metconazole,4,NA,NA,6.54,8.64,3187.3,3398.9,Feldmann et al.2014,Resumo
+37,709,2013,Palmeira,RS,-50.00638889,-25.42861111,NA,Quartzo,MS,S,8,AACHECK,Check,4,NA,NA,61,61,972.6,972.6,Venancio et al.,Resumo
+37,710,2013,Palmeira,RS,-50.00638889,-25.42861111,NA,Quartzo,MS,S,8,Abacus 260+160 HC + Opera 133+50 SE + Opera 133+50 SE +  Opera Ultra 130+160 + Abacus 260+160 HC,(Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Metconazole) + (Piraclostrobina + Epoxiconazole),4,NA,NA,61,9.1,972.6,3499.9,Venancio et al.,Resumo
+37,711,2013,Palmeira,RS,-50.00638889,-25.42861111,NA,Quartzo,MS,S,8,(Clorotalonil + Tebuconazol 450+50) + Opera 133+50 SE + Opera 133+50 SE +  Opera Ultra 130+160 + Abacus 260+160 HC,(Clorotalonil + Tebuconazol 450+50) + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Metconazole) + (Piraclostrobina + Epoxiconazole),4,NA,NA,61,4.7,972.6,3551.3,Venancio et al.,Resumo
+37,712,2013,Palmeira,RS,-50.00638889,-25.42861111,NA,Quartzo,MS,S,8,Abacus 260+160 HC + (Clorotalonil + Tebuconazol 450+50) + Opera 133+50 SE +  Opera Ultra 130+160 + Abacus 260+160 HC,(Piraclostrobina + Epoxiconazole) + (Clorotalonil + Tebuconazol 450+50) + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Metconazole) + (Piraclostrobina + Epoxiconazole),4,NA,NA,61,8.4,972.6,3762.3,Venancio et al.,Resumo
+37,713,2013,Palmeira,RS,-50.00638889,-25.42861111,NA,Quartzo,MS,S,8,Abacus 260+160 HC + Opera 133+50 SE + (Clorotalonil + Tebuconazol 450+50) +  Opera Ultra 130+160 + Abacus 260+160 HC,(Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole) + (Clorotalonil + Tebuconazol 450+50) + (Piraclostrobina + Metconazole) + (Piraclostrobina + Epoxiconazole),4,NA,NA,61,5.7,972.6,3852.5,Venancio et al.,Resumo
+37,714,2013,Palmeira,RS,-50.00638889,-25.42861111,NA,Quartzo,MS,S,8,Abacus 260+160 HC + Opera 133+50 SE + Opera 133+50 SE +  (Clorotalonil + Tebuconazol 450+50) + Abacus 260+160 HC,(Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole) + (Piraclostrobina + Epoxiconazole) + (Clorotalonil + Tebuconazol 450+50) + (Piraclostrobina + Epoxiconazole),4,NA,NA,61,7.4,972.6,4122.4,Venancio et al.,Resumo
+37,715,2013,Palmeira,RS,-50.00638889,-25.42861111,NA,Quartzo,MS,S,8,(Clorotalonil + Tebuconazol 450+50) + Opera 133+50 SE + (Clorotalonil + Tebuconazol 450+50) +  Opera Ultra 130+160 + Abacus 260+160 HC,(Clorotalonil + Tebuconazol 450+50) + (Piraclostrobina + Epoxiconazole) + (Clorotalonil + Tebuconazol 450+50) + (Piraclostrobina + Metconazole) + (Piraclostrobina + Epoxiconazole),4,NA,NA,61,8,972.6,3588.5,Venancio et al.,Resumo
+37,716,2013,Palmeira,RS,-50.00638889,-25.42861111,NA,Quartzo,MS,S,8,Abacus 260+160 HC + (Clorotalonil + Tebuconazol 450+50) + Opera 133+50 SE +  (Clorotalonil + Tebuconazol 450+50)  + Abacus 260+160 HC,(Piraclostrobina + Epoxiconazole) + (Clorotalonil + Tebuconazol 450+50) + (Piraclostrobina + Epoxiconazole) + (Clorotalonil + Tebuconazol 450+50) + (Piraclostrobina + Epoxiconazole),4,NA,NA,61,7.1,972.6,3734,Venancio et al.,Resumo

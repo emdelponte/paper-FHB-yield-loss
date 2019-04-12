@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Plots</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Meta-analytical FHB model</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa fa fa-home"></span>
+     
+    About
+  </a>
+</li>
+<li>
+  <a href="data.html">
+    <span class="fa fa fa fa-table"></span>
+     
+    Data
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa fa fa-file-code-o"></span>
+     
+    Documented analysis
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="code_meta_analysis.html">Meta-analysis approach</a>
+    </li>
+    <li>
+      <a href="code_yield_loss.html">Yield loss modeling</a>
+    </li>
+    <li>
+      <a href="code_fungicide_simulation.html">Fungicide costs</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="plots.html">
+    <span class="fa fa-bar-chart"></span>
+     
+    Publication-ready plots
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Plots</h1>
+
+</div>
+
+
+<pre class="r"><code>knitr::opts_chunk$set(
+  fig.width = 8, fig.height = 6, fig.path = &quot;Figures/&quot;,
+  warning = FALSE, message = FALSE
+)</code></pre>
+<p>Here we show the scripts that produce the publication-ready plots for the article. There is a hidden script (<a href="....https://github.com/emdelponte/paper-fungicides-whitemold/blob/master/plots.Rmd...">see the Rmd file</a>) to prepare the data for the plots including variable creation and transformation.</p>
+<div id="fig-2" class="section level2">
+<h2>Fig 2</h2>
+<p>Results for the fit of a simple linear model to wheat yield (kg ha-1) and FHB index (%) for both crop situations of A, high yield or B, low yield. Results for the fit of a random-coefficient model to wheat yield (kg ha-1) and FHB index (%) with the population-average predictions (thick solid black) of absolute (kg ha-1) and relative yield (%) and respective 95% confidence interval (thick dashed black) for C and E, high yield or D and F, low yield.</p>
+<p>Import and prepare data</p>
+<pre class="r"><code># Import data
+fhb_dat &lt;- read.csv(&quot;data/fhb_data_new.csv&quot;) %&gt;%
+  group_by(trial)
+
+# Transforming the data to character
+fhb_dat$yield_class &lt;- as.character(fhb_dat$yield_class)
+
+# Changing the names of categorical variables
+fhb_dat$yield_class[fhb_dat$yield_class == &quot;low&quot;] &lt;- &quot;Low yield&quot;
+fhb_dat$yield_class[fhb_dat$yield_class == &quot;high&quot;] &lt;- &quot;High yield&quot;</code></pre>
+<p>Regression analysis</p>
+<p>High yield scenario</p>
+<pre class="r"><code>high &lt;- fhb_dat %&gt;%
+  filter(yield_class != &quot;Low yield&quot;)
+
+reg_high &lt;- high %&gt;%
+  ggplot(aes(sev, yield)) +
+  geom_smooth(
+    method = &quot;lm&quot;, fullrange = TRUE, se = F, size = 0.7,
+    color = &quot;grey70&quot;, aes(group = factor(trial))
+  ) +
+  geom_point(size = 1.5, alpha = 0.3, colour = &quot;black&quot;, width = 0.1) +
+  xlim(0, 100) +
+  ylim(0, 7000) +
+  theme(legend.position = &quot;left&quot;) +
+  theme(
+    axis.text = element_text(size = 10),
+    axis.title = element_text(size = 12)
+  ) +
+  theme(plot.title = element_text(hjust = 0.5, size = 12)) +
+  theme(panel.spacing = unit(1, &quot;lines&quot;), strip.text.x = element_text(size = 14)) +
+  labs(
+    x = &quot;&quot;,
+    y = expression(&quot;Wheat yield &quot; ~ (kg ~ ha^{
+      -1
+    })),
+    title = &quot;Baseline yield: High&quot;
+  )</code></pre>
+<p>Low yield scenario</p>
+<pre class="r"><code>low &lt;- fhb_dat %&gt;%
+  filter(yield_class != &quot;High yield&quot;)
+
+reg_low &lt;- low %&gt;%
+  ggplot(aes(sev, yield)) +
+  geom_smooth(
+    method = &quot;lm&quot;, fullrange = TRUE, se = F, size = 0.7,
+    color = &quot;grey70&quot;, aes(group = factor(trial))
+  ) +
+  geom_point(size = 1.5, alpha = 0.3, colour = &quot;black&quot;, width = 0.1) +
+  # scale_y_continuous(limits = c(0, 7000)) +
+  ylim(0, 7000) +
+  xlim(0, 100) +
+  # scale_x_continuous(limits = c(0,100)) +
+  theme(legend.position = &quot;none&quot;) +
+  theme(
+    axis.text = element_text(size = 10),
+    axis.title = element_text(size = 12)
+  ) +
+  theme(plot.title = element_text(hjust = 0.5, size = 12)) +
+  theme(panel.spacing = unit(1, &quot;lines&quot;), strip.text.x = element_text(size = 14)) +
+  labs(
+    x = &quot;&quot;,
+    y = &quot;&quot;,
+    title = &quot;Baseline yield: Low&quot;
+  )</code></pre>
+<p>Combine plots</p>
+<pre class="r"><code>grid_reg &lt;- plot_grid(reg_high, reg_low, ncol = 2, labels = c(&quot;A&quot;, &quot;B&quot;), align = &quot;h&quot;, rel_widths = c(1, 1), rel_heights = c(1, 1), label_size = 12)</code></pre>
+<p>Population average</p>
+<p>High yield</p>
+<pre class="r"><code>abs_loss_high &lt;- ggplot(fhb_dat, aes(sev, yield)) +
+  ylim(0, 5500) +
+  xlim(0, 100) +
+  theme(legend.text = element_text(size = 14)) +
+  theme(axis.text = element_text(size = 10)) +
+  theme(text = element_text(size = 12)) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  labs(
+    x = &quot;&quot;,
+    y = expression(&quot;Wheat yield &quot; ~ (kg ~ ha^{
+      -1
+    })), title = &quot;&quot;
+  ) +
+  geom_abline(aes(intercept = 4419.48, slope = -46.31), size = 1.3, linetype = &quot;solid&quot;) +
+  geom_abline(aes(intercept = 4118.91, slope = -71.03), size = 1.0, linetype = &quot;dashed&quot;) +
+  geom_abline(aes(intercept = 4721.40, slope = -27.40), size = 1.0, linetype = &quot;dashed&quot;)</code></pre>
+<p>Low yield</p>
+<pre class="r"><code>abs_loss_low &lt;- ggplot(fhb_dat, aes(sev, yield)) +
+  ylim(0, 5500) +
+  xlim(0, 100) +
+  theme(axis.text = element_text(size = 10)) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(text = element_text(size = 12)) +
+  labs(
+    x = &quot;&quot;,
+    y = &quot;&quot;,
+    title = &quot;&quot;
+  ) +
+  geom_abline(aes(intercept = 2883.51, slope = -46.31), size = 1.3, linetype = &quot;solid&quot;) +
+  geom_abline(aes(intercept = 2162.74, slope = -71.03), size = 1.0, linetype = &quot;dashed&quot;) +
+  geom_abline(aes(intercept = 3610.03, slope = -27.40), size = 1.0, linetype = &quot;dashed&quot;)
+
+grid_abs_loss &lt;- plot_grid(abs_loss_high, abs_loss_low, ncol = 2, labels = c(&quot;C&quot;, &quot;D&quot;), rel_heights = c(1, 1), rel_widths = c(1, 1), align = &quot;h&quot;, label_size = 12)</code></pre>
+<p>Population-average predictions - Relative loss</p>
+<p>High yield scenario</p>
+<pre class="r"><code>relative_loss_high &lt;- fhb_dat %&gt;%
+  ggplot(aes(sev, yield)) +
+  xlim(0, 100) +
+  ylim(0, 100) +
+  theme(axis.text = element_text(size = 10)) +
+  theme(text = element_text(size = 12)) +
+  labs(
+    x = &quot;FHB index (%)&quot;,
+    y = expression(&quot;Wheat yield (%)&quot;)
+  ) +
+  geom_abline(aes(intercept = 100, slope = -1.05), size = 1.3, linetype = &quot;solid&quot;) +
+  geom_abline(aes(intercept = 100, slope = -1.72), size = 1.0, linetype = &quot;dashed&quot;) +
+  geom_abline(aes(intercept = 100, slope = -0.58), size = 1.0, linetype = &quot;dashed&quot;)</code></pre>
+<p>Low yield scenario</p>
+<pre class="r"><code>relative_loss_low &lt;- fhb_dat %&gt;%
+  ggplot(aes(sev, yield)) +
+  xlim(0, 100) +
+  ylim(0, 100) +
+  theme(axis.text = element_text(size = 10)) +
+  theme(legend.position = &quot;none&quot;) +
+  theme(text = element_text(size = 12)) +
+  labs(
+    x = &quot;FHB index (%)&quot;,
+    y = &quot;&quot;
+  ) +
+  geom_abline(aes(intercept = 100, slope = -1.61), size = 1.3, linetype = &quot;solid&quot;) +
+  geom_abline(aes(intercept = 100, slope = -3.28), size = 1.0, linetype = &quot;dashed&quot;) +
+  geom_abline(aes(intercept = 100, slope = -0.75), size = 1.0, linetype = &quot;dashed&quot;)
+
+grid_rel_loss &lt;- plot_grid(relative_loss_high, relative_loss_low, ncol = 2, labels = c(&quot;E&quot;, &quot;F&quot;), align = &quot;h&quot;, rel_heights = c(1, 1), rel_widths = c(1, 1), label_size = 12)</code></pre>
+<p>Combine all plots and produce the figure</p>
+<pre class="r"><code>plot_grid(grid_reg, grid_abs_loss, grid_rel_loss, ncol = 1, rel_heights = c(1.05, 1, 0.95), rel_widths = c(1, 1, 1), align = &quot;v&quot;)</code></pre>
+<p><img src="Figures/unnamed-chunk-11-1.png" width="768" /></p>
+<pre class="r"><code>ggsave(&quot;figs/Fig_2_grid_all.png&quot;, width = 5.8, height = 8.1)</code></pre>
+</div>
+<div id="fig-3" class="section level2">
+<h2>Fig 3</h2>
+<p>Relative yield loss estimated by a phenology-based model in a 28-year period (1980 to 2007) for Passo Fundo, RS, Brazil. Box-plots in A represent the variability of the relative losses within three time periods. Relative yield loss in B represents the estimated values encompassing the sowing dates before and after 15 June, with the fitted smoothing lines of the generalized additive model for both sowing periods.</p>
+<pre class="r"><code>simul_loss &lt;- read.csv(&quot;data/yield_loss_simulations.csv&quot;)</code></pre>
+<p>Summary per decade</p>
+<pre class="r"><code>box_dcd &lt;- simul_loss %&gt;%
+  ggplot(aes(class_year, relative_loss)) +
+  geom_jitter(size = 1.7, alpha = 0.1, colour = &quot;black&quot;, width = 0.1) +
+  geom_boxplot(aes(group = class_year), width = 0.3, size = 1.2, fill = NA, outlier.colour = NA) +
+  scale_color_grey() +
+  labs(y = &quot;Wheat yield reduction (%)&quot;, x = &quot;&quot;) +
+  theme(axis.text = element_text(size = 10)) +
+  theme(text = element_text(size = 12))</code></pre>
+<p>Summary per planting date</p>
+<pre class="r"><code>dist_planting &lt;- simul_loss %&gt;%
+  group_by(year) %&gt;%
+  ggplot() +
+  geom_smooth(method = &quot;gam&quot;, aes(year, relative_loss, color = class_sow), formula = y ~ x + s(x) + s(x, bs = &quot;cr&quot;)) +
+  geom_jitter(aes(year, relative_loss, color = class_sow), position = &quot;jitter&quot;, size = 2, alpha = 0.6) +
+  # scale_color_manual(values = c(&quot;black&quot;, &quot;grey50&quot;)) +
+  theme(legend.text = element_text(size = 12), text = element_text(size = 12), axis.text = element_text(size = 10), legend.position = &quot;none&quot;) +
+  theme(legend.title = element_blank(), legend.position = &quot;top&quot;) +
+  guides(color = guide_legend(override.aes = list(fill = NA))) +
+  theme(legend.key = element_blank()) +
+  scale_color_colorblind() +
+  labs(y = &quot;Wheat yield reduction (%)&quot;, x = &quot;&quot;, shape = &quot;&quot;, color = &quot;&quot;)</code></pre>
+<p>Combine plots to produce the figure.</p>
+<pre class="r"><code>grid_dist1 &lt;- plot_grid(box_dcd, dist_planting, labels = c(&quot;A&quot;, &quot;B&quot;), align = &quot;v&quot;)
+grid_dist1</code></pre>
+<p><img src="Figures/unnamed-chunk-15-1.png" width="768" /></p>
+<pre class="r"><code>ggsave(&quot;figs/Fig_3_dist.png&quot;, width = 8, height = 4, dpi = 300)</code></pre>
+</div>
+<div id="fig-4" class="section level2">
+<h2>Fig 4</h2>
+<p>Probability categories of non-offsetting on fungicide investment for different scenarios of wheat prices and fungicide costs (product price + operational costs) for A, one or B, two sprays (first spray at early to mid-flowering and a second 7 to 10 days later) for Fusarium head blight (FHB) control. Probability for each time period, encompassing the periods prior (1980-1989) and after (1990-1999, 2000-2007) FHB resurgence, was calculated using the estimates of the mean difference (D ̅), and respective between-year standard deviation (σ^2) obtained from the yield estimates with and without fungicide application for 28 growing seasons in Brazil.</p>
+<pre class="r"><code># Import data
+dat_simul &lt;- read.csv(&quot;data/fungicide_simulations.csv&quot;)</code></pre>
+<p>Plot for one spray</p>
+<pre class="r"><code>tetris_1x &lt;- dat_simul %&gt;%
+  mutate(Price = Price * 1000) %&gt;%
+  filter(trat != &quot;2x&quot;) %&gt;%
+  mutate(class_year = case_when(
+    year &lt; 1990 ~ &quot;1980-1989&quot;,
+    year &gt;= 1990 &amp; year &lt; 2000 ~ &quot;1990-1999&quot;,
+    year &gt;= 2000 ~ &quot;2000-2007&quot;
+  )) %&gt;%
+  group_by(Cost, Price, trat, class_year) %&gt;%
+  summarise(mean_prob = mean(prob)) %&gt;%
+  mutate(prob1 = case_when(
+    mean_prob &lt; 0.25 ~ &quot;0% \u2264 p &lt; 25% &quot;,
+    mean_prob &gt;= 0.25 &amp; mean_prob &lt; 0.50 ~ &quot;25% \u2264 p &lt; 50% &quot;,
+    mean_prob &gt;= 0.50 &amp; mean_prob &lt; 0.75 ~ &quot;50% \u2264 p &lt; 75% &quot;,
+    mean_prob &gt;= 0.75 ~ &quot;75% \u2264 p &lt; 100% &quot;
+  )) %&gt;%
+  ggplot(aes(factor(Cost), factor(Price), fill = prob1, label = prob1)) +
+  geom_tile(color = &quot;white&quot;, size = 0.5) +
+  # scale_fill_brewer(palette = &quot;YlOrRd&quot;)+
+  scale_fill_viridis(discrete = T, option = &quot;E&quot;, begin = 0, end = 1) +
+  labs(x = &quot;&quot;, y = &quot;Wheat price (US$/ton) &quot;, fill = &quot;Probability of not-offsetting costs&quot;) +
+  theme(legend.position = &quot;none&quot;) +
+  facet_grid(trat ~ class_year) +
+  theme(
+    text = element_text(size = 14),
+    strip.text.x = element_text(size = 12, face = &quot;bold&quot;),
+    strip.text.y = element_text(size = 12, face = &quot;bold&quot;),
+    panel.grid.major = element_line(colour = &quot;white&quot;),
+    legend.position = &quot;none&quot;,
+    plot.title = element_text(hjust = 0.0, size = 14, face = &quot;bold&quot;),
+    axis.text.y = element_text(size = 12),
+    axis.text.x = element_text(size = 12)
+  )</code></pre>
+<p>Plots for two sprays</p>
+<pre class="r"><code>tetris_2x &lt;- dat_simul %&gt;%
+  mutate(Price = Price * 1000) %&gt;%
+  filter(trat != &quot;1x&quot;) %&gt;%
+  mutate(class_year = case_when(
+    year &lt; 1990 ~ &quot;1980-1989&quot;,
+    year &gt;= 1990 &amp; year &lt; 2000 ~ &quot;1990-1999&quot;,
+    year &gt;= 2000 ~ &quot;2000-2007&quot;
+  )) %&gt;%
+  group_by(Cost, Price, trat, class_year) %&gt;%
+  summarise(mean_prob = mean(prob)) %&gt;%
+  mutate(prob1 = case_when(
+    mean_prob &lt; 0.25 ~ &quot;0% \u2264 p &lt; 25% &quot;,
+    mean_prob &gt;= 0.25 &amp; mean_prob &lt; 0.50 ~ &quot;25% \u2264 p &lt; 50% &quot;,
+    mean_prob &gt;= 0.50 &amp; mean_prob &lt; 0.75 ~ &quot;50% \u2264 p &lt; 75% &quot;,
+    mean_prob &gt;= 0.75 ~ &quot;75% \u2264 p &lt; 100% &quot;
+  )) %&gt;%
+  ggplot(aes(factor(Cost), factor(Price), fill = prob1, label = prob1)) +
+  geom_tile(color = &quot;white&quot;, size = 0.5) +
+  # scale_fill_brewer(palette = &quot;YlOrRd&quot;)+
+  scale_fill_viridis(discrete = T, option = &quot;E&quot;, begin = 0, end = 1) +
+  labs(x = &quot;Fungicide + application cost (US$/ha)&quot;, y = &quot;Wheat price (US$/ton) &quot;, fill = &quot;Probability of not-offsetting costs&quot;) +
+  facet_grid(trat ~ class_year) +
+  theme(
+    text = element_text(size = 14),
+    strip.text.x = element_text(size = 12, face = &quot;bold&quot;),
+    strip.text.y = element_text(size = 12, face = &quot;bold&quot;),
+    panel.grid.major = element_line(colour = &quot;white&quot;),
+    plot.title = element_text(hjust = 0.0, size = 14, face = &quot;bold&quot;),
+    legend.justification = &quot;center&quot;,
+    panel.grid.minor = element_line(colour = &quot;white&quot;),
+    legend.position = &quot;bottom&quot;,
+    axis.text.y = element_text(size = 12),
+    axis.text.x = element_text(size = 12)
+  )
+
+# GRID Fungicide
+tetris_2x_none &lt;- tetris_2x +
+  theme(legend.position = &quot;none&quot;)
+
+leg_with &lt;- get_legend(tetris_2x) # omit legend</code></pre>
+<p>Combine plots and produce the figure</p>
+<pre class="r"><code>plot_grid(tetris_1x, tetris_2x_none, leg_with, ncol = 1, rel_widths = c(1, 1, 1, 1), rel_heights = c(1, 1, 0.1), labels = c(&quot;A&quot;, &quot;B&quot;))</code></pre>
+<p><img src="Figures/unnamed-chunk-19-1.png" width="768" /></p>
+<pre class="r"><code>ggsave(&quot;figs/Fig_4_tetris.png&quot;, width = 10, height = 7, dpi = 300)</code></pre>
+</div>
+<div id="fig-5" class="section level2">
+<h2>Fig 5</h2>
+<p>Temporal series of the mean probability, and respective 95% confidence interval, of non-offsetting the costs (probability of loss) for benefit-cost ratios (wheat price / fungicide cost in US$, see ranges in Figure 4) ranging from 5 to 15. The probabilities were calculated for both one and two fungicide application.</p>
+<pre class="r"><code># Import data
+dat_simul &lt;- read.csv(&quot;data/fungicide_simulations.csv&quot;)
+
+dat_simul_1 &lt;- dat_simul %&gt;%
+  filter(Cost != 5, Cost != 35, Price != 0.1, Price != 0.25) %&gt;%
+  mutate(Price = Price * 1000) %&gt;%
+  mutate(class_year = case_when(
+    year &lt; 1990 ~ &quot;1980-1989&quot;,
+    year &gt;= 1990 &amp; year &lt; 2000 ~ &quot;1990-1999&quot;,
+    year &gt;= 2000 ~ &quot;2000-2007&quot;
+  )) %&gt;%
+  group_by(Cost, Price, trat, year) %&gt;%
+  summarise(mean_prob = mean(prob)) %&gt;%
+  filter(Price / Cost &lt; 10.15 + 4.725073 &amp; Price / Cost &gt; 10.15 - 4.725073) %&gt;%
+  group_by(year, trat) %&gt;%
+  summarise(
+    n = length(mean_prob),
+    mean_prob2 = mean(mean_prob),
+    min_prob = mean_prob2 - qt(0.097, df = n - 1) * sd(mean_prob) / sqrt(n),
+    max_prob = mean_prob2 + qt(0.097, df = n - 1) * sd(mean_prob) / sqrt(n)
+  )
+
+
+dat_simul %&gt;%
+  filter(Cost != 5, Cost != 35, Price != 0.1, Price != 0.25) %&gt;%
+  mutate(Price = Price * 1000) %&gt;%
+  mutate(class_year = case_when(
+    year &lt; 1990 ~ &quot;1980-1989&quot;,
+    year &gt;= 1990 &amp; year &lt; 2000 ~ &quot;1990-1999&quot;,
+    year &gt;= 2000 ~ &quot;2000-2007&quot;
+  )) %&gt;%
+  group_by(Cost, Price, trat, year) %&gt;%
+  summarise(mean_prob = mean(prob)) %&gt;%
+  ggplot() +
+  geom_hline(yintercept = 0.5, linetype = 2, color = &quot;black&quot;, size = 2) +
+  geom_smooth(
+    data = dat_simul_1, aes(year, mean_prob2, group = trat, color = trat),
+    se = F,
+    size = 2
+  ) +
+  geom_errorbar(
+    data = dat_simul_1, aes(x = year, ymin = min_prob, ymax = max_prob, color = trat),
+    width = 0, size = 0.5, alpha = 0.7,
+    position = position_dodge(width = 0.5)
+  ) +
+  geom_point(
+    data = dat_simul_1, aes(year, mean_prob2, color = trat),
+    size = 4.5, alpha = 1,
+    position = position_dodge(width = 0.5)
+  ) +
+  scale_x_continuous(breaks = c(seq(0, 3000, by = 2))) +
+  scale_color_colorblind() +
+  # scale_color_manual(values = c(&quot;black&quot;, &quot;gray40&quot;))+
+  theme_light() +
+  guides(color = guide_legend(), size = guide_legend()) +
+  # facet_wrap(~trat)+
+  labs(
+    y = &quot;Probability of not-offsetting costs&quot;,
+    x = &quot;Year&quot;,
+    color = &quot;Fungicide application&quot;,
+    fill = &quot;Benefit-cost ratio &quot;,
+    size = &quot;Benefit-Cost ratio&quot;
+  ) +
+  theme(legend.position = &quot;bottom&quot;)</code></pre>
+<p><img src="Figures/unnamed-chunk-20-1.png" width="768" /></p>
+<pre class="r"><code>ggsave(&quot;figs/Fig_5_Cost_benefit_mean.png&quot;, width = 7, height = 4, dpi = 300)</code></pre>
+</div>
+<div id="fig-1s" class="section level1">
+<h1>Fig 1S</h1>
+<p>Let’s produce map that depicts the locations where the experiments were conducted and diplay the information on the mean number of experiments per site.</p>
+<pre><code>## OGR data source with driver: ESRI Shapefile 
+## Source: &quot;/Users/emersondelponte/Documents/github/paper-FHB-yield-loss/data/shape-files-BRA/BRA_adm1.shp&quot;, layer: &quot;BRA_adm1&quot;
+## with 27 features
+## It has 16 fields</code></pre>
+<p><img src="Figures/pressure-1.png" width="768" /></p>
+</div>
+
+
+
+Copyright 2017 Emerson Del Ponte
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

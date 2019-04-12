@@ -1,0 +1,77 @@
+% Data 
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+The data used in this analysis were obtained from peer-reviewed articles and trial network data after systematically reviewing Brazilian literature on Fusarium head bligh (FHB)after 2000. The experiments were conducted in the south Brazil, the main wheat growing region and where FHB causes significant losses due to warm and wet springs. The disease and yield data used in our study has been published as a summary means for different treatments within experiments with replicates. There were two response variables of our interest in the studies:
+
+- **FHB index** (%, **sev**): proportion of diseased spikelets in the sample of spikes
+- **Crop yield** (kg/ha, **yield**): grain weight at 13% humidity
+
+Data from each trial were extracted from the publication or spreasheets and organized in a single spreadsheet where each row represents a treatment within a trial (study).
+
+
+## Data import 
+
+   Let's import the dataset and select only the important variables for performing our analysis.
+   
+   
+```{r message=FALSE, warning=FALSE}
+
+library(tidyverse) # for data exploration, wrangling and plottting
+
+fhb_dat <- read_csv("data/fhb_data.csv")
+head(fhb_dat)
+
+```
+
+Let's have a quick look on all variables available and their types.
+
+```{r}
+dplyr::glimpse(fhb_dat)
+```
+
+Let's reduce the number of columns by selecting the most important variables for our analysis.
+
+```{r}
+fhb_dat <- fhb_dat %>%
+  select(1:7, 12, 19, 21)
+```
+
+
+# Create the categorical variable - Baseline yield
+
+Here we will group the yield data into two production situations, low or high yield, based on median of maximum yields across trials.
+
+  
+```{r, message=FALSE, warning=FALSE}
+# Summarizing the yield max by study
+yield_max <- fhb_dat %>%
+  group_by(trial) %>% 
+  summarize(max_yield = max(yield))
+
+# Grouping the yield max informationnew information in a new column
+fhb_dat_selec <- left_join(fhb_dat, yield_max)
+
+summary(yield_max$max_yield) # the median value of the yield mx by trials was 3631 kg/ha
+
+# Create a new categorical variable - Baseline yield
+
+fhb_dat_selec <- fhb_dat_selec %>%
+  mutate(yield_class = case_when(max_yield <= 3631 ~ "low",
+                         max_yield > 3631 ~ "high"))
+
+```
+
+## Export the new dataset
+
+
+```{r}
+library(readr)
+write_csv(fhb_dat_selec, "data/fhb_data_new.csv")
+```
+
+
+
+

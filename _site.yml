@@ -1,0 +1,40 @@
+name: teste
+output_dir: docs
+output:
+  html_document:
+    css: style.css
+    theme: flatly
+    df_print: paged
+    highlight: default
+    include:
+      after_body: footer.md
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+    lib_dir: site_libs
+    self_contained: no
+bibliography: crossref.bib
+csl: chicago-author-date.csl
+navbar:
+  title: Meta-analytical FHB model
+  left:
+  - text: About
+    icon: fa fa-home
+    href: index.html
+  - text: Data
+    icon: fa fa-table
+    href: data.html
+  - text: Documented analysis
+    icon: fa fa-file-code-o
+    menu:
+    - text: Meta-analysis approach 
+      href: code_meta_analysis.html
+    - text: Yield loss modeling 
+      href: code_yield_loss.html
+    - text: Fungicide costs 
+      href: code_fungicide_simulation.html
+  - text: Publication-ready plots
+    icon: fa-bar-chart 
+    href: plots.html
+  right:
